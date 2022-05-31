@@ -5,7 +5,6 @@
 @import "parciales/_cardindex.scss";
 @import "parciales/_lorem.scss";
 @import "parciales/_footer.scss";
-@import "parciales/_mediaquerys.scss";
 
 #main {
     padding-top: 132px;
@@ -143,6 +142,8 @@ background-color: map-get($background-color, shadow__video );
     color: rgb(217, 255, 0);
     list-style-type: square;
 }
+@import "parciales/_mediaquerys.scss";
+
 
 
 
