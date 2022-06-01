@@ -12,6 +12,17 @@
         padding-left: 25%;
         padding-right: 25%;
     }
+
+    #jugadores_video {
+        margin-bottom: 30px;
+        padding-left: 10%;
+        padding-right: 25%;
+    }
+    #video_logros {
+        margin-bottom: 30px;
+        padding-left: 15%;
+        padding-right: 25%;
+    }
     .h1font {
         
         font-weight: bolder;
@@ -21,6 +32,7 @@
         padding-left: 8%;
         padding-bottom: 2rem;
     }
+  
     
 }
 @media screen and (max-width: 769px) {
@@ -36,8 +48,20 @@
         padding-right: 16px;
         padding-left: 16px;
     }
+    #jugadores_video {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    #video_logros {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
     .h1font {
-        
+        font-size: 60px;
         font-weight: bolder;
     }
     
@@ -61,6 +85,30 @@
         
         margin-bottom: 20px;
     }
+    #jugadores_video {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        margin-bottom: 20px;
+    }
+    #video_logros {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        margin-bottom: 20px;
+    }
+    #fotocontacto {
+        display: flex;
+        margin: 0;
+        padding-right: 16px;
+        padding-left: 16px;
+        
+        margin-bottom: 20px;
+    }
     .card__index {
         width: 300px;
         margin-left: 1rem;
@@ -68,19 +116,21 @@
         overflow: scroll;
     }
    
-    .contacto_h3 {
+    .footer_h3 {
         font-size: 20px;
         border-color: 3px ;
+        top: 0;
+        margin-bottom: 15px;
         
-        padding: 8px;
     
     }
     .redes_h3{
-        font-size: 20px;
+        font-size: 17px;
         border-color: 3px ;
-        
+        top: 0;
         padding: 8px;
-         }
+        
+    }
     .ele3_section {
         font-size: 12px;
     }
@@ -104,11 +154,37 @@
         padding-left: 8px;
         padding-bottom: 2rem;
     }
+    .xavifoto {
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
     #main {
         padding-bottom: 50px
     }
     .h3font {
         margin-left: 10% ;
         margin-right: 10%;
+    }
+    .h1font {
+        font-size: 40px;
+    }
+    .h2font {
+        font-size: 25px;
+    }
+    .lorem2 {
+       margin-right: 8%;
+
+    }
+    .lorem4 {
+        margin-left: 5px;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .lorem5 {
+        margin-left: 5px;
+        padding-top: 10px;
+        padding-right: 10px;
     }
     }

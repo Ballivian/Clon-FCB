@@ -3,6 +3,7 @@ footer {
     
     margin-right: 0%;
     padding-bottom: 30px;
+    
     .footer_firstsection {
         display: grid;
         padding-left: 1rem;
@@ -16,8 +17,7 @@ footer {
     
          
       .contacto_h3 {
-        padding-top: 1rem;
-        padding-bottom: 1.2rem;
+        padding-top: 0.8rem;
         
         font-size: 30px;
         border-style: dotted;
@@ -41,7 +41,7 @@ footer {
         padding-top: 1rem;
         padding-bottom: 1.2rem;
         font-weight:bolder ;
-        font-size: 30px;
+        
         border-style: dotted;
         color: $color-amarillo;
         margin-bottom: 1rem;

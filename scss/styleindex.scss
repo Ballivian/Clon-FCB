@@ -98,6 +98,7 @@ background-color: map-get($background-color, shadow__video );
 #jugadores_video {
     margin-bottom: 30px;
     padding-left: 25%;
+    padding-right: 20%;
     background-color: map-get($background-color, shadow__video );
 }
 .xavifoto {
@@ -108,12 +109,16 @@ background-color: map-get($background-color, shadow__video );
 }
 #video_logros {
     margin-bottom: 30px;
+    padding-right: 36%;
     padding-left: 25%;
+    
     background-color: map-get($background-color, shadow__video );
 }
 #fotocontacto {
     margin-bottom: 30px;
-    padding-left: 30%;
+    padding-left: 28%;
+    padding-right: 28%;
+    padding-bottom: 5px;
     background-color: map-get($background-color, shadow__video );
 }
 .formulario1 {
