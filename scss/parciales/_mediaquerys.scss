@@ -69,7 +69,10 @@
 }
 @media screen and (max-width: 500px) {
     
-   
+    .card__group {
+        @include padding (5%,5%,0,0);
+        
+    }
     .index_main_video {
         display: flex;
         margin: 0;

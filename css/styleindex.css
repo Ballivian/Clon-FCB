@@ -55,7 +55,10 @@ body {
 }
 
 .card__group {
-  margin-left: 5%r;
+  padding-right: 18%;
+  padding-left: 18%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 card__1index {
@@ -180,40 +183,6 @@ footer .footer_firstsection {
   grid-template-areas: "ele1 ele2" "ele3 ele4";
 }
 
-footer .footer_firstsection .contacto_h3 {
-  padding-top: 0.8rem;
-  font-size: 30px;
-  border-style: dotted;
-  color: #fbff00;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  grid-area: ele1;
-  justify-self: left;
-  margin-top: 1rem;
-}
-
-footer .footer_firstsection .contacto_h3 .footer_h3 {
-  color: #fbff00;
-  font-weight: bolder;
-  text-decoration: none;
-  max-height: 100%;
-}
-
-footer .footer_firstsection .redes_h3 {
-  padding-top: 1rem;
-  padding-bottom: 1.2rem;
-  font-weight: bolder;
-  border-style: dotted;
-  color: #fbff00;
-  margin-bottom: 1rem;
-  text-decoration: none;
-  text-align: right;
-  grid-area: ele2;
-  justify-self: right;
-  margin-top: 1rem;
-  margin-right: 1rem;
-}
-
 footer .footer_firstsection .footer_redessociales {
   color: white;
   text-decoration: none;
@@ -243,17 +212,60 @@ footer .footer_firstsection .ele4_section .redes_links {
   text-decoration: none;
 }
 
+.footer__title, .footer__title--contacto_h3, .footer__title--footer_h3, .footer__title--redes_h3 {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 1rem;
+  color: #fbff00;
+}
+
+.footer__title--contacto_h3 {
+  grid-area: ele1;
+  justify-self: left;
+  border-style: dotted;
+}
+
+.footer__title--footer_h3 {
+  text-decoration: none;
+  max-height: 100%;
+}
+
+.footer__title--redes_h3 {
+  padding-bottom: 1.2rem;
+  text-align: right;
+  grid-area: ele2;
+  justify-self: right;
+  margin-right: 1rem;
+  border-style: dotted;
+}
+
 #main {
-  padding-top: 132px;
   background-image: linear-gradient(to left, #cf2828, #2525d6);
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 132px;
   padding-bottom: 150px;
 }
 
 .index_main_video {
   margin-bottom: 30px;
-  padding-left: 28%;
   padding-right: 25%;
+  padding-left: 18%;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@keyframes leftshow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .h1font {
@@ -265,15 +277,6 @@ footer .footer_firstsection .ele4_section .redes_links {
   animation-name: leftshow;
   animation-iteration-count: initial;
   color: white;
-}
-
-@keyframes leftshow {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
 }
 
 .h2font {
@@ -301,8 +304,10 @@ footer .footer_firstsection .ele4_section .redes_links {
 
 .fotoequipo {
   overflow: hidden;
-  padding-left: 18%;
   padding-right: 18%;
+  padding-left: 18%;
+  padding-top: 0;
+  padding-bottom: 0;
   padding-bottom: 3rem;
 }
 
@@ -313,21 +318,28 @@ footer .footer_firstsection .ele4_section .redes_links {
 
 #campnou_video {
   margin-bottom: 30px;
+  padding-right: 0;
   padding-left: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .fotocampnou {
   overflow: hidden;
-  padding-left: 18%;
   padding-right: 18%;
+  padding-left: 18%;
+  padding-top: 0;
+  padding-bottom: 0;
   padding-bottom: 3rem;
 }
 
 #jugadores_video {
   margin-bottom: 30px;
-  padding-left: 25%;
   padding-right: 20%;
+  padding-left: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
@@ -342,13 +354,16 @@ footer .footer_firstsection .ele4_section .redes_links {
   margin-bottom: 30px;
   padding-right: 36%;
   padding-left: 25%;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 #fotocontacto {
   margin-bottom: 30px;
-  padding-left: 28%;
   padding-right: 28%;
+  padding-left: 28%;
+  padding-top: 0;
   padding-bottom: 5px;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -374,7 +389,7 @@ footer .footer_firstsection .ele4_section .redes_links {
   border-style: solid;
   border-color: 5px;
   background-color: rgba(49, 49, 49, 0.808);
-  color: #d9ff00;
+  color: #fbff00;
   list-style-type: square;
 }
 
@@ -443,6 +458,12 @@ footer .footer_firstsection .ele4_section .redes_links {
 }
 
 @media screen and (max-width: 500px) {
+  .card__group {
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
   .index_main_video {
     display: flex;
     margin: 0;

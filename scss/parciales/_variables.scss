@@ -2,6 +2,7 @@ $color-amarillo: rgb(251, 255, 0);
 
 
 
+// mapa de colores para backgrounds
 
 $background-color: (
     header__nav: rgba(230, 255, 4, 0.836),
@@ -12,4 +13,13 @@ $background-color: (
     lorem__orange: rgb(235, 164, 78),
     lorem__grey: rgba(49, 49, 49, 0.808),
     
-)
+);
+//  mixin de parametros
+
+@mixin padding ($padding_left, $padding_rigth , $padding_top , $padding_bottom) {
+    padding-right: $padding_rigth;
+    padding-left: $padding_left;
+    padding-top: $padding_top;
+    padding-bottom: $padding_bottom;
+}
+// Exten

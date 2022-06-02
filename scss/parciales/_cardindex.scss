@@ -2,9 +2,11 @@
    
    
     margin-bottom: 2rem;
+    
 }
 .card__group {
-    margin-left: 5%r;
+    @include padding (18%,18%,0,0);
+    
 }
 card__1index{
     transition: all 0.7s;
