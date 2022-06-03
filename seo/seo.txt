@@ -1,0 +1,23 @@
+•	Descripción: 
+o	índex: El FCB te invita a conocer un poco más de su maravillosa historia, jugadores, equipo técnico y sus estrellas en la cancha.
+o	Camp Nou: El FCB te invita a conocer un poco más de su maravilloso y nuevo estadio recién inaugurado, una obra maestra.
+o	Jugadores: El FCB te invita a conocer un poco más de su maravillosa plantilla, un equipo lleno de estrellas con Xavi Hernández exjugador del club de primera categoría.
+o	Logros: El FCB te invita a conocer un poco más de su maravillosa historia junto con sus bastos títulos, diversas copas del rey y champions ligues son las que posee el FCB.
+o	Contacto: El FCB te invita a dar tu opinión acerca del club, nos importa la perspectiva de nuestros hinchas y queremos seguir mejorando.
+
+
+
+•	Palabras clave: 
+o	índex: FCB, futbol, historia, pioneros.
+o	Camp Nou: FCB, futbol, camp Nou, estadio, mundo.
+o	Jugadores:  FCB, futbol, jugadores, estrellas, Xavi, equipo.
+o	Logros:   FCB, futbol, logros, trofeos, ganados.
+o	Contacto: FCB, futbol, contacto, opinión, comentarios.
+
+
+•	Encabezado: 
+o	Índex: H1: Historia.
+o	Camp Nou: H1: El mejor estadio del mundo.
+o	Jugadores: H1: Un equipo imbatible para esta temporada 2021/2022.
+o	Logros: H1: Campeones del mundo.
+o	Contacto: H1: Contáctate con nosotros.
